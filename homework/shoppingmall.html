@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet"> 
+
+        <title>어한나</title>
+    <style>
+        .wrap {
+            width: 600px;
+            border: 5px solid black;
+            margin: auto;
+            padding: 10px;
+            font-family: 'Nanum Myeongjo', serif;
+
+        }
+
+        .picture {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .title {
+            border: 1px solid red;
+
+        }
+
+        .order-form {
+            text-align: center;            
+            border: 1px solid black;
+        }
+
+        .button {
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        function hey() {
+            alert('주문이 완료되었습니다.');
+        }
+    </script>
+
+</head>
+
+<body>
+
+<div class = "wrap"> 
+    <div class = "picture">   
+        <img src="https://www.cupost.co.kr/img/today/img_impossible_1_3.jpg" class="rounded" alt="" width="500px">       
+    </div>
+    <div class="title">
+        <p>
+        <h3 style="font-size: 30px; display: inline-block;">Lucky box for 2020</h3>
+        <p style="font-size: 18px; display: inline-block;"> 가격: 200,000원 / 개 </p>
+        <p style="font-size: 13px;"> 2020년 당신에게 필요한 10가지 물건이 랜덤으로 들어있는 상자. 단돈 20만원에 올해의 필수품을 가져보세요!</p>
+        </p>    
+    </div>
+
+    <div class="order-form">
+        <div class="col-auto">
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">주문자 성함: </div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup">
+            </div>
+        </div>
+        <div class="col-auto">
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">수량: </div>
+                </div>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>--수량을 선택하세요--</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="col-auto">
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">주소: </div>
+                </div>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+
+        <div class="col-auto">
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">전화번호: </div>
+                </div>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+    <div class="button">
+        <button onclick="hey()" type="submit" class="btn btn-primary">주문하기</button>
+    </div>
+    </div>
+
+</div>
+
+</body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+
+</html>
